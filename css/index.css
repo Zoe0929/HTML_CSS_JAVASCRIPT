@@ -106,7 +106,7 @@ header .sub-menu .search input:focus{
     border-color: #669900;
 }
 
-header .sub-menu .search .material-icons-outlined {
+header .sub-menu .search .material-icons{
     height: 24px;
     position: absolute;
     top: 0;
