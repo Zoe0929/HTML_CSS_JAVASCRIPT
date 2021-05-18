@@ -44,12 +44,16 @@ header .logo{
 }
 
 header .sub-menu{
+    position: absolute;
+    top: 10px;
+    right: 0;
     display: flex;
 }
 
 header .sub-menu ul#menu li a{
-    font-size: 12px;
-    padding: 11px 16px;
+    font-size: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
     display: block;
     color: #656565;
 }   
@@ -83,8 +87,9 @@ header .sub-menu ul#menu li:first-child:before{
 }
 
 header .sub-menu .search {
-    height: 34px;
     position: relative;
+    height: 34px;
+    margin: auto;
 }
 
 header .sub-menu .search input {
@@ -112,5 +117,5 @@ header .sub-menu .search .material-icons{
     top: 0;
     bottom: 0;
     right: 5px;
-    margin: auto ;
+    margin: auto;
 }
