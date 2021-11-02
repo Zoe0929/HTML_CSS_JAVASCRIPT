@@ -23,14 +23,15 @@ li{
 /* header */
 
 header{
-    background-color: blue;
+    background-color: #f6f5f0;
+    border-bottom: 1px solid;
 }
 
 header .inner{
     width: 1100px;
     height: 100px;
     margin: 0 auto;
-    background-color: orange;
+    background-color: #c8c8c8;
     position: relative;
 }
 
@@ -40,7 +41,6 @@ header .logo{
     top: 0;
     bottom: 0;
     margin: auto;
-    display: none;
 }
 
 header .sub-menu{
@@ -118,4 +118,8 @@ header .sub-menu .search .material-icons{
     bottom: 0;
     right: 5px;
     margin: auto;
+    transition: .4s;
+}
+header .sub-menu .search.focused .search .material-icons{
+   opacity: 0;
 }
