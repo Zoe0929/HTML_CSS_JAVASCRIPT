@@ -21,6 +21,12 @@ li{
     list-style: none;
 }
 
+.inner{
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
 /* header */
 
 header{
@@ -28,12 +34,8 @@ header{
     border-bottom: 1px solid;
 }
 
-header .inner{
-    width: 1100px;
-    height: 100px;
-    margin: 0 auto;
-    background-color: #c8c8c8;
-    position: relative;
+header > .inner{
+    height: 120px;
 }
 
 header .logo{
@@ -150,5 +152,24 @@ header .main-menu .item:hover .item_name {
 
 
 header .main-menu .item .item_contents{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    display: none;
+}
 
+
+header .main-menu .item:hover .item_contents{
+    display: block;
+}
+
+header .main-menu .item .item_contents .contents__menu{
+    background-color: red;
+    height: 100px;
+}
+
+
+header .main-menu .item .item_contents .contents__texture{
+    background-color: orange;
+    height: 50px;
 }
