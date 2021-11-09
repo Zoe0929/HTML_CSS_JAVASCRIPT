@@ -62,4 +62,31 @@ ___
      
 05. gsap 라이브러리: JS 애니메이션 처리 라이브러리
    -  ```gsap.to(요소, 지속시간, 옵션)  ``` : 옵션에는 css요소들 사용 가능 
+06. Swiper
+- [Swiper](https://swiperjs.com/) 
+```
+<!-- in HEAD -->
+<link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
 
+<!-- in BODY -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">1</div>
+    <div class="swiper-slide">2</div>
+    <div class="swiper-slide">3</div>
+  </div>
+</div>
+```
+- [Swiper API](https://swiperjs.com/swiper-api) 옵션 확인 
+```
+//new Swiper(요소, 옵션);
+new Swiper('.swiper-container', {
+  direction: 'vertical', // 수직 슬라이드
+  autoplay: true, // 자동 재생 여부
+  loop: true // 반복 재생 여부
+});
+```
+- ```direction```: 슬라이드 방향 설정
+- ```autoplay```: 자동 재생 여부
+- ```loop```: 반복 재생 여부 (true - 반복 재생, false - 반복 재생 하지 않음)
