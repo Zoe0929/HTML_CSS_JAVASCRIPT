@@ -401,6 +401,7 @@ header .badges .badge{
     height: 62px;
     flex-grow: 1;
     background-color: orange;
+    overflow: hidden; /* 나머지 항목들 숨겨줌 */
 }
 
 .notice .notice-line .inner .inner__left .notice-line__more{
