@@ -8,7 +8,7 @@ searchEL.addEventListener('click',function(){
 searchInputEl.addEventListener('focus',function(){
     searchEL.classList.add('focused');
     searchInputEl.setAttribute('placeholder','통합검색');
-})
+}) 
 
 searchInputEl.addEventListener('blur',function(){
     searchEL.classList.remove('focused');

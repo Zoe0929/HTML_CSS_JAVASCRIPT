@@ -400,9 +400,18 @@ header .badges .badge{
 .notice .notice-line .inner .inner__left .swiper-container{
     height: 62px;
     flex-grow: 1;
-    background-color: orange;
     overflow: hidden; /* 나머지 항목들 숨겨줌 */
 }
+
+.notice .notice-line .inner .inner__left .swiper-slide{
+    height: 62px;
+    display: flex;
+    align-items: center;
+}
+.notice .notice-line .inner .inner__left .swiper-slide a{
+    color: #fff;
+}
+
 
 .notice .notice-line .inner .inner__left .notice-line__more{
     width: 62px;
