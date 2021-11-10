@@ -49,3 +49,13 @@ new Swiper('.notice-line .swiper-container',{
     autoplay: true,
     loop: true
 });
+
+new Swiper('.promotion .swiper-container',{
+    slidesPreView:3,
+    spaceBetween:10,
+    centredSlides:true,
+    loop:true,
+    autoplay:{
+        delay: 5000
+    }
+})
