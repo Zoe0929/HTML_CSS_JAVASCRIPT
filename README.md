@@ -96,3 +96,10 @@ new Swiper('.swiper-container', {
 - ```direction```: 슬라이드 방향 설정
 - ```autoplay```: 자동 재생 여부
 - ```loop```: 반복 재생 여부 (true - 반복 재생, false - 반복 재생 하지 않음)
+
+
+### 요소 중앙 정렬: calc() 함수
+___
+1. calc(): 괄호 안의 식을 계산한 결과를 속성값으로 사용하게 해주는 함수
+2. 중앙 정렬
+- left: 50%로 설정 해준 뒤, margin-left에 calc로 절반 값을 계산해서 당겨줌 
