@@ -103,3 +103,23 @@ ___
 1. calc(): 괄호 안의 식을 계산한 결과를 속성값으로 사용하게 해주는 함수
 2. 중앙 정렬
 - left: 50%로 설정 해준 뒤, margin-left에 calc로 절반 값을 계산해서 당겨줌 
+
+### 특정 비율로 유지하기 : padding-top 이용
+```
+//html
+<div class="container">
+  <div class="item"></div>
+</div>
+
+//css
+.container{
+     width:200px;
+     background-color:royalblue;
+ }
+ .container .item{
+      width:100%;
+      height: 0;
+      padding-top: 56.25%;
+  }
+  ```
+  - 16:9 비율 유지
