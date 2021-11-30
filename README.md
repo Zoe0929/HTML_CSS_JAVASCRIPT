@@ -105,6 +105,7 @@ ___
 - left: 50%로 설정 해준 뒤, margin-left에 calc로 절반 값을 계산해서 당겨줌 
 
 ### 특정 비율로 유지하기 : padding-top 이용
+___
 ```
 //html
 <div class="container">
